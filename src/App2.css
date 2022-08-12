@@ -1,0 +1,55 @@
+
+
+body{
+    background-color: navy;
+    color: white;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+button{
+    background-color: transparent;
+    color: white;
+    font-size:20px;
+    padding:15px;
+    margin:10px;
+    }
+    
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.timer-container{
+    margin: -50px 20px 20px;
+}
+
+.timer-container h2{
+    margin: 0;
+    text-align: center;
+}
+
+
+.actions-wrapper span{
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+.clock-container{
+    border:2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    display:inline-block; 
+    padding:10px 60px;
+    width: 400px;
+}
+.clock-container h1{
+    margin: 0;
+}
+.clock-container span{
+    font-size: 60px;
+}
